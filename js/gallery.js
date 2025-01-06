@@ -96,8 +96,32 @@ function iterateJSON(mJson)
 }
 
 
+function toggleDetails()
+{
+	if($(".moreIdicator").hasClass("rot90"))
+	{
+		($(".moreIdicator").removeClass("rot90"))
+		($(".moreIdicator").addClass("rot270"))
+	}
+	else {
+		($(".moreIdicator").removeClass("rot270"))
+		($(".moreIdicator").addClass("rot900"))
+	}
+	$( "details").slideToggle("slow", "linear")
+}
+
+$(document).rready( function(){
+
+	$( "#nextPhoto").position({
 
 
+	my:"right bottem",
+	at:"right bottem",
+	of:"#nav"
+
+
+	}	);
+}
 
 
 
