@@ -81,9 +81,19 @@ loc[0].innerHTML = "Date: " + mImages[mCurrentIndex].date;
 mLastFrameTime = 0;
 mCurrentIndex +=1;
 
-
 }
 
+function iterateJSON(mJson)
+{
+	for( x = 0; x < mJson.images.length; x++)
+	{
+		mImages[x] = new GalleryImage();
+		mImages[x].location = mJson.images[x].imgLocation;
+		mImages[x].description = mJson.images[x].description;
+		mImages[x].date = mJson.images[x].date;
+		mImages[x].img = mJson.images[x].imgPath;
+	}
+}
 
 
 
