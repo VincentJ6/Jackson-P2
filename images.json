@@ -37,10 +37,16 @@
             "date": "production ended in June 2015"
         },
         {
-            "imgPath": "img/places/918.jpg",
+            "imgPath": "img/places/skyline.jpg",
             "imgLocation": "Japan at Nissan's Tochigi plant",
             "description": "1990 Nissan Skyline GT-R Nismo ",
             "date": "22 February 1990"
+        },
+        {
+            "imgPath": "img/places/firebird.jpg",
+            "imgLocation": "United States",
+            "description": "Pontiac Firebird ",
+            "date": "1967 to 2002"
         }
 
   ]
